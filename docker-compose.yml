@@ -11,6 +11,7 @@ services:
 
   node-app:
     build: .
+    image: theallegrarr/node-app
     ports:
       - "3435"
     environment:
